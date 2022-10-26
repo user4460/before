@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Recipe {
+  id: ID!
+  title: String!
+}
+
+type Query {
+  recipes: [Recipe!]!
+}
+
+type user {
+  id: ID!
+  name: String!
+}
+// !とは、必須項目を表す

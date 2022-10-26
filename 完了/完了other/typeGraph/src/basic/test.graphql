@@ -1,0 +1,17 @@
+# Datetime型を定義
+scalar DateTime
+
+# Queryスキーマを定義
+# QueryとMutationは予めGraphQL側で予約されている
+type Query {
+  chapter: Chapter
+}
+
+# Chapterスキーマを定義
+type Chapter {
+  no: Int
+  name: String
+  version: String
+  original: Boolean
+  postDate: DateTime
+}

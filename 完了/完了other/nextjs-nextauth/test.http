@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+ETag: "b3-hb/zqixMhiKCJHOCn33BK3aR5OA"
+Content-Length: 179
+Vary: Accept-Encoding
+Date: Tue, 28 Dec 2021 01:06:16 GMT
+Connection: close
+
+{
+  "github": {
+    "id": "github",
+    "name": "GitHub",
+    "type": "oauth",
+    "signinUrl": "http://localhost:3000/api/auth/signin/github",
+    "callbackUrl": "http://localhost:3000/api/auth/callback/github"
+  }
+}

@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAldm6WzjWK-fl74npkouW1630eUI_Nv1s",
+  authDomain: "rela-code-auth.firebaseapp.com",
+  projectId: "rela-code-auth",
+  storageBucket: "rela-code-auth.appspot.com",
+  messagingSenderId: "520149828634",
+  appId: "1:520149828634:web:01283755fd8d80ac7e3da3"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
